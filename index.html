@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alphabet Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="lives">❤️ Lives: <span id="lifeCount">3</span></div>
+
+  <div class="game-container">
+    <h1 id="alphabet">A</h1>
+    <h2 id="alphabetName">A for Apple</h2>
+
+    <img id="alphabetImage" src="Images/apple.jpg" alt="Alphabet Image">
+
+    <div class="buttons" id="buttons"></div>
+  </div>
+
+
+  <div id="gameOver" class="game-over hidden">
+    <h1>Game Over</h1>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
